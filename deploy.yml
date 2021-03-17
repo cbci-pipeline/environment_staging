@@ -32,7 +32,7 @@ spec:
       serviceAccountName: cjoc
       containers:
       - name: cbci-pipeline
-        image: gcr.io/core-workshop/helloworld-nodejs:cbci-pipeline-5
+        image: gcr.io/core-workshop/helloworld-nodejs:cbci-pipeline-6
         resources:
           requests:
             memory: "100Mi"
